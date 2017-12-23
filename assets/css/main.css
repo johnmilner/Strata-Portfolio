@@ -989,7 +989,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
+  /*border-bottom: dotted 1px;*/
   /*color: _palette(accent1, bg);*/
   text-decoration: none; }
   a:hover {
@@ -1346,7 +1346,7 @@ input[type="radio"] + label:before {
   transition: all 0.3s ease;
   box-shadow: inset 0 0 0 transparent;
   color: #fff;
-  border: 0 solid;
+  border: 0 transparent;
   position: relative; }
 
 @media only screen and (min-width: 400px) {
@@ -1524,49 +1524,49 @@ input[type="radio"] + label:before {
 .inner-content a.project .overlay { color:#f1c40f;}*/
 /* Grid Images */
 .travel {
-  background-image: url("../img/projects/hero-small.jpg"); }
+  background-image: url("images/hero-small.jpg"); }
 
 .hvp {
   background-image: url("images/html5-player.png"); }
 
 .wam {
-  background-image: url("../img/projects/whack-a-mole.png"); }
+  background-image: url("images/whack-a-mole.png"); }
 
 .cafe {
-  background-image: url("../img/projects/cafetography.png"); }
+  background-image: url("images/cafetography.png"); }
 
 .pat {
-  background-image: url("../img/projects/patatap.png"); }
+  background-image: url("images/patatap.png"); }
 
 .webcam {
-  background-image: url("../img/projects/unreal-webcam.jpg"); }
+  background-image: url("images/unreal-webcam.jpg"); }
 
 .countdown {
-  background-image: url("../img/projects/countdown-timer.png"); }
+  background-image: url("images/countdown-timer.png"); }
 
 .random {
-  background-image: url("../img/projects/random-user-generator.png"); }
+  background-image: url("images/random-user-generator.png"); }
 
 .speech {
-  background-image: url("../img/projects/speech-recognition.png"); }
+  background-image: url("images/speech-recognition.png"); }
 
 .voice {
-  background-image: url("../img/projects/voicenator.png"); }
+  background-image: url("images/voicenator.png"); }
 
 .yelp {
-  background-image: url("../img/projects/yelp-camp.png"); }
+  background-image: url("images/yelp-camp.png"); }
 
 .painter {
-  background-image: url("../img/projects/painter.png"); }
+  background-image: url("images/painter.png"); }
 
 .todo {
-  background-image: url("../img/projects/todo-list.png"); }
+  background-image: url("images/todo-list.png"); }
 
 .adv {
-  background-image: url("../img/projects/marketing-page.png"); }
+  background-image: url("images/marketing-page.png"); }
 
 .color {
-  background-image: url("../img/projects/color-game.png"); }
+  background-image: url("images/color-game.png"); }
 
 .image {
   border-radius: 0.35em;
