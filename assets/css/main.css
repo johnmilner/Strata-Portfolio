@@ -1508,23 +1508,51 @@ input[type="radio"] + label:before {
     font-size: 4vw; } }
 
 /* Border Overlay Colors */
-/*.inner-content a.project .overlay { color:#1abc9c;}*/
-.inner-content a.project .overlay {
+.p1.inner-content a.project .overlay {
+  color: #1abc9c; }
+
+.p2.inner-content a.project .overlay {
   color: #3498db; }
 
-/*.inner-content a.project .overlay { color:#9b59b6;}
-.inner-content a.project .overlay { color:#34495e;}
-.inner-content a.project .overlay { color:#f1c40f;}
-.inner-content a.project .overlay { color:#e67e22;}
-.inner-content a.project .overlay { color:#e74c3c;}
-.inner-content a.project .overlay { color:#bdc3c7;}
-.inner-content a.project .overlay { color:#2ecc71;}
-.inner-content a.project .overlay { color:#16a085;}
-.inner-content a.project .overlay { color:#1abc9c;}
-.inner-content a.project .overlay { color:#3498db;}
-.inner-content a.project .overlay { color:#9b59b6;}
-.inner-content a.project .overlay { color:#34495e;}
-.inner-content a.project .overlay { color:#f1c40f;}*/
+.p3.inner-content a.project .overlay {
+  color: #9b59b6; }
+
+.p4.inner-content a.project .overlay {
+  color: #34495e; }
+
+.p5.inner-content a.project .overlay {
+  color: #f1c40f; }
+
+.p6.inner-content a.project .overlay {
+  color: #e67e22; }
+
+.p7.inner-content a.project .overlay {
+  color: #e74c3c; }
+
+.p8.inner-content a.project .overlay {
+  color: #bdc3c7; }
+
+.p9.inner-content a.project .overlay {
+  color: #2ecc71; }
+
+.p10.inner-content a.project .overlay {
+  color: #16a085; }
+
+.p11.inner-content a.project .overlay {
+  color: #1abc9c; }
+
+.p12.inner-content a.project .overlay {
+  color: #3498db; }
+
+.p13.inner-content a.project .overlay {
+  color: #9b59b6; }
+
+.p14.inner-content a.project .overlay {
+  color: #34495e; }
+
+.p15.inner-content a.project .overlay {
+  color: #bdc3c7; }
+
 /* Grid Images */
 .travel {
   background-image: url("images/hero-small.jpg"); }

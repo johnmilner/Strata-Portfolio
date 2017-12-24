@@ -13,7 +13,7 @@ gulp.task('sass', function() {
   return gulp.src('assets/sass/main.scss')
     .pipe(sass())
     .pipe(gulp.dest('assets/css'))
-    .pipe(browserSync.stream({once: true}))
+    .pipe(browserSync.stream({once: true}));
 });
 
 // Minify compiled CSS
@@ -26,7 +26,7 @@ gulp.task('minify-css', ['sass'], function() {
       suffix: '.min'
     }))
     .pipe(gulp.dest('assets/css'))
-    .pipe(browserSync.stream({once: true}))
+    .pipe(browserSync.stream({once: true}));
 });
 
 // Minify custom JS
@@ -37,7 +37,7 @@ gulp.task('minify-js', function() {
       suffix: '.min'
     }))
     .pipe(gulp.dest('assets/js'))
-    .pipe(browserSync.stream({once: true}))
+    .pipe(browserSync.stream({once: true}));
 });
 
 // Copy vendor files from /node_modules into /vendor
@@ -78,8 +78,8 @@ gulp.task('browserSync', function() {
     server: {
       baseDir: ''
     },
-  })
-})
+  });
+});
 
 // Dev task with browserSync
 gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() {
@@ -89,7 +89,4 @@ gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() 
   // Reloads the browser whenever HTML or JS files change
   gulp.watch('*.html', browserSync.reload);
   gulp.watch('assets/js/**/*.js', browserSync.reload);
-  setTimeout(function(){
-   browserSync.reload;
-  }, 1000);
 });
