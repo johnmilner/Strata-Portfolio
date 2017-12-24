@@ -1,8 +1,8 @@
 {
-  "title": "Freelancer",
+  "title": "Portfolio Site",
   "name": "portfolio-site",
   "version": "4.0.0-beta.2",
-  "description": "A freelancer portfolio HTML theme for Bootstrap.",
+  "description": "Strata Theme.",
   "keywords": [
     "css",
     "sass",
@@ -11,7 +11,7 @@
     "theme",
     "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/freelancer",
+  "homepage": "html5up.net",
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues",
     "email": "feedback@startbootstrap.com"
@@ -30,6 +30,7 @@
     "font-awesome": "4.7.0",
     "jquery": "^3.2.1",
     "jquery.easing": "^1.4.1",
+    "lite-server": "^2.3.0",
     "save-dev": "^2.0.0"
   },
   "devDependencies": {
@@ -43,8 +44,4 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "3.0.0"
   },
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
 }

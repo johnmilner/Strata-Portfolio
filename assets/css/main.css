@@ -2298,11 +2298,18 @@ body.is-touch .poptrox-popup .closer {
   /* Footer */
   #footer {
     background-attachment: scroll;
-    background-color: #1f1815;
-    background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-    background-position: top left,						bottom center;
-    background-repeat: repeat,							no-repeat;
-    background-size: auto,							cover;
+    /*background-color:		_palette(accent2, bg);
+				background-image:		url('images/overlay.png'),		url('../../images/bg.jpg');
+				background-position:	top left,						bottom center;
+				background-repeat:		repeat,							no-repeat;
+				background-size:		auto,							cover;*/
+    background: linear-gradient(238deg, #fd8800, #fd008f, #9700fd, #0082c8, #05c7e6, #4bd58d);
+    background-size: 1200% 1200%;
+    -webkit-animation: dboxRainbow 30s ease infinite;
+    -moz-animation: dboxRainbow 30s ease infinite;
+    -o-animation: dboxRainbow 30s ease infinite;
+    animation: dboxRainbow 30s ease infinite;
+    -webkit-font-smoothing: subpixel-antialiased;
     bottom: auto;
     left: auto;
     padding: 4em 4em 6em 4em;
